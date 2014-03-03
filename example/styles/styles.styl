@@ -1,0 +1,88 @@
+// piki/example/styles
+
+@import "nib"
+
+global-reset()
+reset-html5()
+
+*
+    box-size border-box
+
+html
+    width 100%
+    background #999
+    font normal 62.5% Verdana, sans-serif
+    color #333
+
+body
+    min-width 40rem
+    width 50%
+    max-width 80rem
+    margin 10% auto
+    padding 2rem
+    box-shadow 0 0 2rem rgba( black, .5 )
+
+h1
+    margin 0 auto 1rem
+    font bold 1.8rem Verdana, sans-serif
+    text-align center
+
+h2
+    margin 0 auto 2rem
+    font normal 1.3rem Verdana, sans-serif
+    text-align center
+
+h3
+    margin 0 auto 1.8rem
+    font normal 1.3rem Verdana, sans-serif
+
+p
+    margin 0 auto 1.5rem
+    font normal 1.1rem Verdana, sans-serif
+    strong
+        font-weight bold
+    em
+        font-style italic
+
+#tiki
+    position relative
+    width 35rem
+    height 7rem
+    margin 4rem auto
+    padding .5rem
+    background white
+    border .3rem solid silver
+    border-radius 1rem
+    box-shadow 0 0 1rem rgba( black, .25 )
+    text-align left
+    &:before
+    &:after
+        content ""
+        position absolute
+        left 30%
+        width .3rem
+        height 2rem
+        background silver
+    &:before
+        top 0
+    &:after
+        bottom 0
+    span
+        display block
+        margin 1.8rem 0 0 0
+        font normal 2.6rem "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace
+        em
+            color #c30
+        mark
+            background transparent
+            color #eee
+
+form
+    width 35rem
+    margin 0 auto
+    div
+        margin 0 auto 2rem
+        label
+            font normal 1.4rem Verdana, sans-serif
+        textarea
+            vertical-align top

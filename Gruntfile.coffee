@@ -33,6 +33,12 @@ module.exports = ( grunt ) ->
             lib:
                 files:
                     "lib/jquery.piki.min.js": "lib/jquery.piki.js"
+        stylus:
+            example:
+                options:
+                    use: [ "nib" ]
+                files:
+                    "example/styles/styles.css": "example/styles/styles.styl"
         watch:
             lib:
                 files: "lib/jquery.piki.litcoffee"
@@ -40,6 +46,11 @@ module.exports = ( grunt ) ->
                     "coffee"
                     "jshint"
                     "uglify"
+                ]
+            example:
+                files: "example/styles/styles.styl"
+                tasks: [
+                    "stylus"
                 ]
 
         grunt.registerTask "default", [

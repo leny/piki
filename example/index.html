@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>piki</title>
+
+        <link rel="stylesheet" href="styles/styles.css" />
+    </head>
+    <body>
+        <h1>piki</h1>
+
+        <h2>A simple Spritz-like reader.</h2>
+
+        <div id="tiki-container">
+            <div id="tiki">
+                <span><mark>....</mark>Lo<em>r</em>em</span>
+            </div>
+            <form action="#">
+                <fieldset>
+                    <div class="options">
+                        <label for="speed">Reading Speed:</label>
+                        <select name="speed" id="speed">
+                            <option value="100">100wpm</option>
+                            <option value="200">200wpm</option>
+                            <option value="300">300wpm</option>
+                            <option value="400">400wpm</option>
+                            <option value="500">500wpm</option>
+                            <option value="600">600wpm</option>
+                            <option value="700">700wpm</option>
+                            <option value="800">800wpm</option>
+                            <option value="900">900wpm</option>
+                            <option value="1000">1000wpm</option>
+                        </select>
+                        <button type="submit">Read !</button>
+                    </div>
+                    <div class="text">
+                        <label for="text">Text to read:</label>
+                        <textarea name="text" id="text" cols="30" rows="10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh.</textarea>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+        <div id="about">
+            <h3>What's this ?</h3>
+            <div>
+                <p>
+                    <strong>piki</strong> is a simple fast-reader, trying to mimic the <a href="http://www.spritzinc.com" rel="external">Spritz</a> technology.
+                </p>
+                <p>
+                    I was very impressed by the demo of Spritz, but can't test it in french, my main language.<br />
+                    So, while waiting for an open Spritz API, I've done this.
+                </p>
+            </div>
+        </div>
+
+        <div id="use">
+            <h3>Use piki</h3>
+
+            <p><strong>piki</strong> is more a <em>proof-of-concept</em> than a viable concept, but it  has been written as a jQuery plugin.</p>
+
+            <p>There's no documentation at the moment, but you can read the code !</p>
+
+            <p>Feel free to fork it for your own usage !</p>
+        </div>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="../lib/jquery.piki.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
