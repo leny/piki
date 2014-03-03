@@ -6,6 +6,8 @@ module.exports = ( grunt ) ->
 
     grunt.initConfig
         coffee:
+            options:
+                bare: yes
             lib:
                 files:
                     "lib/jquery.piki.js": "lib/jquery.piki.litcoffee"
