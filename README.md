@@ -6,7 +6,7 @@
 
 ## What's this ?
 
-**piki** is a simple fast-reader, trying to mimic the [Spritz](http://www.spritzinc.com) technology.
+**piki** is a simple (and dirty) fast-reader, trying to mimic the [Spritz](http://www.spritzinc.com) technology.
 
 I was very impressed by the demo of Spritz, but can't test it in french, my main language.  
 So, while waiting for an open Spritz API, I've done this.
@@ -20,3 +20,9 @@ Take a look at the `example` folder !
 There's no documentation at the moment, but you can read the code !
 
 Feel free to fork it for your own usage !
+
+## TODO
+
+As **piki** is a *proof-of-concept*, a great work can be done in performances...
+
+...I'll do it. Probably. One day. :)
