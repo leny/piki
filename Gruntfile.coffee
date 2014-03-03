@@ -23,6 +23,7 @@ module.exports = ( grunt ) ->
                 unused: yes
                 boss: yes
                 eqnull: yes
+                browser: yes
                 jquery: yes
                 devel: yes
             lib:
