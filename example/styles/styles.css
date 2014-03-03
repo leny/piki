@@ -22,7 +22,7 @@ p em{font-style:italic}
 #tiki:after{bottom:0}
 #tiki span{display:block;margin:1.8rem 0 0 0;font:normal 2.6rem "Lucida Sans Typewriter","Lucida Console",Monaco,"Bitstream Vera Sans Mono",monospace;}
 #tiki span em{color:#c30}
-#tiki span mark{background:transparent;color:#eee}
+#tiki span mark{background:transparent;color:transparent}
 form{width:35rem;margin:0 auto;}
 form div{margin:0 auto 2rem;}
 form div label{font:normal 1.4rem Verdana,sans-serif}
